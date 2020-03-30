@@ -6,4 +6,6 @@ puts "----------"
 
 # Your code goes here ...
 @store1 = Store.find(1);
-# @store1 = Store.find(1);
+@store2 = Store.find(2);
+
+
