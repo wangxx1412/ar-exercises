@@ -10,3 +10,6 @@ puts "----------"
 # Your code goes here ...
 @total_revenue = Store.sum("annual_revenue")
 puts @total_revenue
+
+@cool_stores = Store.where("annual_revenue > 1000000").count();
+puts @cool_stores
